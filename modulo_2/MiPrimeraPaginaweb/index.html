@@ -9,6 +9,7 @@
     <meta name="description" content="Comparte tus conocimientos tomado Café">
     <meta name="keywords" content="charlas, eventos, simposios, tecnología, co-work">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="/modulo_2/MiPrimeraPaginaweb/assets/css/estilos.css">
 </head>
 <body>
     <body>
@@ -26,13 +27,13 @@
             </nav>            
         </header>
         <!--hero section-->
-        <section>
-            <img src="assets/img/bg-hero.png" width="300" />
+        <section class="main-banner">
+            <!--<img src="assets/img/bg-hero.png" width="300" />-->
             <h1>Descubre lo último en tecnología bebiendo café</h1>
             <h2>Charlas, eventos y simposios sobre tecnología</h2>
         </section>
         <!--ubicacion-->
-        <section>
+        <section id="ubicacion" class="location">
             <img src="assets/img/we-work.jpg" width="300" />
             <h2>¿Dónde nos juntamos?</h2>
             <p>
@@ -41,38 +42,45 @@
             </p>
         </section>
         <!--proxima charla-->
-        <section>
-            <img src="/modulo_2/MiPrimeraPaginaweb/assets/img/speaker.jpg" alt="">
-            <h1>Próxima Charla</h1>
+        <section id="proxima-charla" class="next-talk">
+            <div>
+                <img src="/modulo_2/MiPrimeraPaginaweb/assets/img/speaker.jpg" alt="">
+            </div>
+            <div>
+                <h1>Próxima Charla</h1>
             <h2>Big Data para Noobs</h2>
             <h3>Rafaela Valdés</h3>
             <h4>Data Scientist, PhD Theorical Physics, Carneige Meilon University.</h4>
             <p>En esta charla revisaremos las técnicas y tcnologías que hacen que sea económico hacer frente a los datos a una escala extrema.</p>
+            </div>
+            
         </section>
         <!--eventos-->
-        <section>
+        <section id="eventos-anteriores"  >
             <h1>Eventos anteriores</h1>
-            <div>
-                <img src="/modulo_2/MiPrimeraPaginaweb/assets/img/simposio-vegan.jpg" alt="imagen de un edificio">
-                <h1>Simposio veganDB</h1>
-            </div>
-            <div>
-                <img src="/modulo_2/MiPrimeraPaginaweb/assets/img/machine-learning.jpg" alt="imagen de alumnos tomando notas en una conferencia">
-                <h1>Machine Learnig 101</h1>
-            </div>
-            <div>
-                <img src="/modulo_2/MiPrimeraPaginaweb/assets/img/scrum-sin-scream.jpg" alt="imagen de una persona reflexionando frente a una pizarra">
-                <h1>Scrum sin scream</h1>
+            <div class="previous-events">
+                <div class="event">
+                    <img src="/modulo_2/MiPrimeraPaginaweb/assets/img/simposio-vegan.jpg" alt="imagen de un edificio">
+                    <h1>Simposio veganDB</h1>
+                </div>
+                <div class="event">
+                    <img src="/modulo_2/MiPrimeraPaginaweb/assets/img/machine-learning.jpg" alt="imagen de alumnos tomando notas en una conferencia">
+                    <h1>Machine Learnig 101</h1>
+                </div>
+                <div class="event">
+                    <img src="/modulo_2/MiPrimeraPaginaweb/assets/img/scrum-sin-scream.jpg" alt="imagen de una persona reflexionando frente a una pizarra">
+                    <h1>Scrum sin scream</h1>
+                </div>
             </div>
 
         </section>
         <!--footer-->
         <footer>
-            <ul>
-                <li><i class="fa-brands fa-square-github"></i></li>
-                <li><i class="fa-brands fa-x-twitter"></i></li>
-                <li><i class="fa-brands fa-square-x-twitter"></i></li>
-            </ul>
+            <div class="social-icons">
+                <a href="https://github.com"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                <a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
+            </div>
             <h4>Meet & Coffee 2024. Todos los derechos reservados.</h4>
         </footer>
 
