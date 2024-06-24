@@ -27,6 +27,11 @@ header h2{
     width: 800px;
     margin: auto;
 }
+.wrapper img {
+    width: 200px;
+}
+/* ? resuelto, un problema de medidas no me dejaba usar inlineblock */
+
 .wrapper {
     width: 25%;
 }
@@ -37,4 +42,24 @@ header h2{
 .wrapper img, .texto {
     display: inline-block;
     vertical-align: middle;
+}
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+.sticky-menu {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+.navi li{
+    display: inline-block;
+    padding: 10px;
 }

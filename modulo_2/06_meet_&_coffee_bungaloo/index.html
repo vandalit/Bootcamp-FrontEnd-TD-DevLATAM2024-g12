@@ -12,11 +12,14 @@
     <meta name="keywords" content="charlas, eventos, simposios, tecnología, co-work">
     
     <link rel="stylesheet" href="./assets/css/estilo.css">
+    <script src="https://kit.fontawesome.com/c26f064be7.js" crossorigin="anonymous"></script>
 </head>
 
+<!--! no logre colocar bien el block-inline , porque? -->
+
 <body>
-    <nav>
-        <ul>
+    <nav class="sticky-menu">
+        <ul class="navi">
             <li>
                 <a href="../../index.html"><img src="./assets/img/coffee-cup.svg" alt="taza de cafe" width="50"></a>
             </li>
@@ -41,7 +44,7 @@
         </p>
     </section>
     <!--proxima charla-->
-    <section id="Proxima-Charla">
+    <div id="Proxima-Charla">
         <div class="wrapper">
             <img src="./assets/img/speaker.jpg" alt="aaaa">
             <div class="texto">
@@ -52,10 +55,9 @@
                 <p>En esta charla revisaremos las técnicas y tcnologías que hacen que sea económico hacer frente a los datos a una escala extrema.</p>
             </div>
         </div>
-        <!-- problema inline no identificado -->
-        
-        
-    </section>
+        <!-- problema inline no identificado -->    
+    </div>
+
     <!--eventos-->
     <section id="eventos-anteriores"  >
         <h1>Eventos anteriores</h1>
@@ -73,7 +75,7 @@
                 <h1>Scrum sin scream</h1>
             </div>
         </div>
-        <div class="easter-egg" style="cursor: pointer;">🐣</div>
+        
     </section>
     <!--footer-->
     <footer>
@@ -82,7 +84,10 @@
             <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
             <a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
         </div>
-        <h4>Meet & Coffee 2024. Todos los derechos reservados.</h4>
+        <p>Meet & Coffee 2024. Todos los derechos reservados.</p>
+        <div class="easter-egg" style="cursor: pointer;">🐣</div>
     </footer>  
+
+    
 </body>
 </html>
