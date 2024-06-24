@@ -28,9 +28,12 @@ dw_js_n1.innerHTML= nota1_js;
 dw_js_n2.innerHTML= nota2_js;
 dw_js_n3.innerHTML= nota3_js;
 
-var promedioHTML = getElementById("promedioHTML");
-var promedioCSS = getElementById("promedioCSS");
-var promedioJS = getElementById("promedioJS");
+var promedioHTML = document.getElementById("promedioHTML");
+var promedioCSS = document.getElementById("promedioCSS");
+var promedioJS = document.getElementById("promedioJS");
 
-promedioHTML = (nota1_html + nota2_html + nota3_html )/ 3;
+promedioHTML.innerHTML = (parseFloat(nota1_html) + parseFloat(nota2_html) + parseFloat(nota3_html))/3;
 console.log(promedioHTML);
+promedioCSS.innerHTML = (parseFloat(nota1_css) + parseFloat(nota2_css) + parseFloat(nota3_css))/3;
+promedioJS.innerHTML = (parseFloat(nota1_js) + parseFloat(nota2_js) + parseFloat(nota3_js))/3;
+
