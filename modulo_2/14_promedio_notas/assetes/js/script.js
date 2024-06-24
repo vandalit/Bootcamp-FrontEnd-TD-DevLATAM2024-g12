@@ -32,5 +32,5 @@ var promedioHTML = getElementById("promedioHTML");
 var promedioCSS = getElementById("promedioCSS");
 var promedioJS = getElementById("promedioJS");
 
-promedioHTML = nota1_html + nota2_html + nota3_html / 3;
+promedioHTML = (nota1_html + nota2_html + nota3_html )/ 3;
 console.log(promedioHTML);
