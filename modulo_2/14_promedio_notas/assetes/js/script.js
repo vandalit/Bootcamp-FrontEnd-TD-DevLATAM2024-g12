@@ -1,12 +1,12 @@
 var nota1_html=prompt("ingrese la primera nota de html");
-var nota1_css=prompt("ingrese la primera nota de html");
-var nota1_js=prompt("ingrese la primera nota de html");
+var nota1_css=prompt("ingrese la primera nota de css");
+var nota1_js=prompt("ingrese la primera nota de js");
 var nota2_html=prompt("ingrese la primera nota de html");
-var nota2_css=prompt("ingrese la primera nota de html");
-var nota2_js=prompt("ingrese la primera nota de html");
+var nota2_css=prompt("ingrese la primera nota de css");
+var nota2_js=prompt("ingrese la primera nota de js");
 var nota3_html=prompt("ingrese la primera nota de html");
-var nota3_css=prompt("ingrese la primera nota de html");
-var nota3_js=prompt("ingrese la primera nota de html");
+var nota3_css=prompt("ingrese la primera nota de css");
+var nota3_js=prompt("ingrese la primera nota de js");
 
 var dw_html_n1 = document.getElementById("html1");
 var dw_html_n2 = document.getElementById("html2");
