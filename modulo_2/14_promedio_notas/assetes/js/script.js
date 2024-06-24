@@ -28,3 +28,9 @@ dw_js_n1.innerHTML= nota1_js;
 dw_js_n2.innerHTML= nota2_js;
 dw_js_n3.innerHTML= nota3_js;
 
+var promedioHTML = getElementById("promedioHTML");
+var promedioCSS = getElementById("promedioCSS");
+var promedioJS = getElementById("promedioJS");
+
+promedioHTML = nota1_html + nota2_html + nota3_html / 3;
+console.log(promedioHTML);
