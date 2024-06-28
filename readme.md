@@ -1,4 +1,4 @@
-<img src="https://talentodigitalparachile.cl/wp-content/uploads/2021/06/desarrollador-1288x724-1.jpg" alt="Logo de GitHub" width="400" height="100">
+<img src="https://talentodigitalparachile.cl/wp-content/uploads/2021/06/desarrollador-1288x724-1.jpg" alt="Logo de GitHub" height="200">
 
 # Desarrollo de Aplicaciones Front-End Trainee
 
