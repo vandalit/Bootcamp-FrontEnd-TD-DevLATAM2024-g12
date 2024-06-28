@@ -1,6 +1,9 @@
+<img src="https://talentodigitalparachile.cl/wp-content/uploads/2021/06/desarrollador-1288x724-1.jpg" alt="Logo de GitHub" width="400" height="100">
+
 # Desarrollo de Aplicaciones Front-End Trainee
 
 Este repositorio contiene los trabajos y ejercicios realizados en el bootcamp "Desarrollo de Aplicaciones Front-End Trainee", organizado por Talento Digital para Chile. 
+
 
 ## Descripción del Bootcamp
 
