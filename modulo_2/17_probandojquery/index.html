@@ -7,9 +7,9 @@
 </head>
 <body>
     <p>Si me clickeas dos veces desapareceré</p>
-    <p id="MiParrafo">yo tambien</p>
+    <p id="MiParrafo" class="centrado">yo tambien</p>
     <p class="MiClase">yo igual</p>
-    <img src="../08_iguana-page/assets/img/iguana-1.jpg" alt="iguana" width="100px" class="centrado">
+    <img src="../08_iguana-page/assets/img/iguana-1.jpg" alt="iguana" width="100px" class="centrado" id="imagen">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
@@ -39,10 +39,24 @@
                 });
             });
             $(".centrado").hover(function(){
+            });
+            $("#imagen.centrado img").hover(function(){
                 $(this).css({
-                    "justify-content":"center"
+                    "border":"200px",
+                    "border-color":"coral",
                 });
             });
+            $("p a.encabezado");
+            $("#imagen, .centrado");
+            $("*");
+            $("[href]");
+            $("input[type='text']");
+            $("p").click(function(){
+                consolge.log("click")
+            });
+            $(".vacaciones.valor").text(("100.000"));
+            $(".vacaciones").css('bacground-color','yellow');
+
         });
     </script>
 </body>
