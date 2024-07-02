@@ -23,10 +23,15 @@ body {
     width: 100%;
 }
 
-
-
-footer {
-    background-color: coral;
-    height: 70px;
-    padding: 20px;
+#quienes-somos i {
+    color: #007bff;
 }
+
+.card-title {
+    font-weight: bold;
+}
+
+.social-links i {
+    font-size: 1.5rem;
+}
+
