@@ -20,9 +20,10 @@
 .recipe-gallery {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    align-items: center;
+
 }
 .recipe-gallery img {
-    width: 23%;
-    border-radius: 8px;
+    width: 20%;
+    border-radius: 20px;
 }
