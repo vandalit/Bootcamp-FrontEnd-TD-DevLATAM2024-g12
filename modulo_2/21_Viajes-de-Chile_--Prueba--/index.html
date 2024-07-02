@@ -72,5 +72,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- js -->
     <link rel="stylesheet" href="./assets/js/script.js">
+    <script>
+        $(document).ready(function(){
+    // al hacer doble click a etiqueta p, desaparecerá
+    $("p").dblclick(function(){
+        $(this).hide("slow");
+    });
+    $("#MiParrafo").click(function(){
+        $(this).css({
+            "color":"coral",
+            "font-size":"2em"
+        });
+    });
+});
+    </script>
 </body>
 </html>
